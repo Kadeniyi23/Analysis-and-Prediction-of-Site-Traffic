@@ -10,7 +10,7 @@ Tasty Bytes started as a recipe search engine during the Covid-19 pandemic and h
 ##  📂 Dataset Details
 The dataset contains recipe details, including nutritional values, category, servings, and traffic status.
 
-|Column	|Data Type|	Description
+Column	|Data Type|	Description
 recipe|	Numeric|	Unique identifier for the recipe
 calories	|Numeric|	Total calories per serving
 carbohydrate|	Numeric	|Amount of carbohydrates (grams)
