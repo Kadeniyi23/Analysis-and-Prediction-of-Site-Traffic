@@ -21,3 +21,19 @@ The dataset contains recipe details, including nutritional values, category, ser
 | servings    | Numeric   | Number of servings per recipe                     |
 | high_traffic| Character | Whether the recipe is high-traffic (Yes/No)       |
 
+
+## 📊 Exploratory Data Analysis (EDA)
+Key insights from the EDA include:
+
+- 📌 Distribution of calories, protein, and sugar across different recipes.
+- 📌 Correlation analysis between nutritional factors and high-traffic recipes.
+- 📌 Top-performing recipe categories based on popularity.
+
+## 🤖 Predicting High-Traffic Recipes
+We trained a classification model to predict whether a recipe will have high traffic based on its nutritional content and category.
+
+### 🔍 Model Training
+- 1️⃣ Feature Engineering - Convert categorical data, normalize numerical values.
+- 2️⃣ Train/Test Split - Splitting data into 80% training and 20% testing.
+- 3️⃣ Model Selection - Tested models like Logistic Regression, Random Forest, and XGBoost.
+- 4️⃣ Evaluation Metrics - Accuracy, Precision, Recall, F1-score.
